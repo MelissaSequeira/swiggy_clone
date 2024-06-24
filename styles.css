@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    border: 0%;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+#page1 {
+    height:2900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{    display: flex;
+    width: 100%;
+    height: 80px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.sc-dhKdcB {
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: .9rem;
+    color: #fc8019;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}
+._8pSp-{
+    margin-right: 30px;
+}
+._1GTCc{
+   margin:5px;
+}
+.navitems{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+}
+.navlink:hover{
+    color: #fc8019;
+    fill: rgb(251, 155, 0);
+}
+.navlink svg:hover {
+    fill: rgb(251, 155, 0);
+  }
+.navlink:hover {
+    color: #ff8000; /* Change text color on hover */
+}
+
+.navlink svg {
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+.navlink:hover svg rect,
+.navlink:hover svg path {
+    stroke: #ff8000; /* Change stroke color on hover */
+    fill: #ff8000; /* Change fill color on hover, if applicable */
+}
+  
+.category  {
+    height: 285px;
+    width: 1000px; /* Ensure this matches the container's width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Add overflow hidden to the category */
+}
+.resto{
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.catp1 p,.restop1 p {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+}
+.itemsContainer{
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out;
+}
+.pics {
+    height: 180px;
+    width: 144px;
+    margin-left: 24px;
+}
+
+.butclass {
+    margin-left: 100px;
+}
+
+.catpics {
+    display: flex;
+    height: 203px;
+    transition: transform 0.5s ease-in-out; /* Add transition for smooth sliding */
+}
+.catp1,.restop1 {
+    margin-top: 20px;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+.ldirbutt, .rdirbutt,.ldirbutt2,.rdirbutt2 {
+    color: aliceblue;
+    background-color: black;
+}
+hr{
+    width: 1000px;
+}.imgrest {
+    height: 182px;
+    width: 273px;
+    position: relative;
+}
+
+.imgrest img {
+    height: 100%; /* Adjusted to fit the container */
+    width: 100%;  /* Adjusted to fit the container */
+    background-image: url('img/Chinese.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.txt {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: background color for better readability */ /* Text color */
+    width: 100%; /* Make the text container full width */
+    text-align: center; /* Center the text inside the container */
+    padding: 5px 0; /* Optional: Add some padding for better appearance */
+    font-family: 'ProximaNovaCond_Black';
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.restoname,.rate-time{
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    font-family: Gilroy_Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.foodtype,.address{
+    height: auto;
+    width: auto;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+.itemContainernew{
+    display: flex;
+    width: 273px;
+    height:auto;
+    transition: transform 0.5s ease-in-out;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 24px;
+}
+.footer{
+    height: 494px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footdiv{
+    padding-top: 48px;
+    height: 348px;
+    width: 172px;
+}
+.footdiv-p1-r1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.footdiv-p1-r1 p{
+    font-size: 24px;
+}
+.inp{
+    font-size: 16px;
+    margin: 16px 0px;
+    font-family: Gilroy;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.inphead{
+    font-size: 18px;
+    margin: 5px;
+}
+.footdiv button{
+    height: 32px;
+    width: 120px;
+    background-color: transparent;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: unset;
+    box-shadow: unset;
+    height: 32px;
+    cursor: pointer;
+    padding: 4px 8px;
+    width: 100%;
+    max-width: 120px;
+    text-align: initial;
+    border-radius: 8px;
+}
+.pay{
+    display: flex;
+    height: 104px;
+    background-color: rgb(240, 240, 245);
+    align-items: center;
+}
+.pay1{
+    width: 1240px;
+    text-align: center;
+    display: flex;
+}
+.paytxt{    display: flex;
+    width: 60%;
+    font-weight: 300;
+    color: #282c3f;
+    font-size: 28px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    justify-content: center;
+}
+.restop12{
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.paytxt p {
+    width: 408px;
+    height: 64px;
+    text-align: left;
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.75);
+}
+.payimg{
+    width: 40%;
+    display: flex;
+}
+.payimg img{
+    margin-left: 20px;
+    height: 64px;
+    width:202px;
+    border-radius: 10px;
+}
+.resto-near-me{display: flex;
+    height: 114px;
+    width: 1000px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.two-divs{
+    display: flex;
+    height: 70px;
+}
+.resto-janjat{
+    display: flex;
+    height: 53px;
+    width: 504px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}.best-cuisine{
+    margin-left: 50px;
+    margin-bottom: 64px;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.multi-divs{
+    height: 230px;
+    width: 1075px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cuis-janjat {
+    height: 54px;
+    width: 220px;
+    display: flex;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    margin:12px;
+}
+.mumresto{
+    height:1500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.restoinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mumrestopics {
+    height: 270px;
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+.mumrestimg{
+    height: 132px;
+    width: 198px;
+}
+.mumrestimg img{
+    height: 100%; /* Adjusted to fit the container */
+    width: 100%;  /* Adjusted to fit the container */
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.mumrestimg img .mr-txt {
+    position: absolute;
+    bottom: 0;
+    /* left: 50%; */
+    transform: translateX(-50%);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: background color for better readability */
+    color: white; /* Text color */
+    width: 100%; /* Make the text container full width */
+    text-align: center; /* Center the text inside the container */
+    padding: 5px 0; /* Optional: Add some padding for better appearance */
+    font-family: 'ProximaNovaCond_Black';
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+}
